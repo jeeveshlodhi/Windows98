@@ -1,0 +1,96 @@
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #c1c1c1;
+  padding: 4px 8px;
+  box-sizing: content-box;
+}
+
+.start-btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: #c1c1c1;
+  border: none;
+  padding: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.start-btn > img {
+  width: 25px;
+  transform: rotateZ(346deg);
+}
+
+.start-menu {
+  background-color: #c1c1c1;
+  z-index: 10;
+  position: absolute;
+  margin-bottom: 330px;
+  margin-left: -3px;
+  display: flex;
+}
+.start-menu > div:first-child {
+  text-orientation: sideways-right;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  color: white;
+  background-color: #000181;
+  font-size: 25px;
+  padding: 10px 0;
+
+}
+.start-menu > div:first-child > span {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.start-menu-items>div{
+  padding: 5px 5px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  width: 200px;
+}
+.start-menu-items p::first-letter{
+  text-decoration: underline;
+}
+
+.background-menu-item{
+  background-color: #000181;
+  color: white;
+}
+ .start-menu-items img{
+  width: 30px;
+  height: 30px;
+  padding: 0 10px;
+  user-select: none;
+ }
+.start-menu-items p{
+  padding-left: 10px;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+.taskbar{
+  right: 0;
+  margin-left: auto;
+  display: flex;
+  border: 0 !important;
+  align-items: center;
+  margin-right: 15px;
+}
+.taskbar> img{
+  width: 20px;
+  padding: 0 5px;
+}
+.taskbar > div{
+  padding: 0 5px;
+}
